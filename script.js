@@ -21,7 +21,7 @@ const monsterHealthText = document.querySelector("#monsterHealth");
 
 // creating functions
 function goTown() {
-    update(locations);
+    update(locations[0]);
 }
 function goStore() {
     // // console.log("Going to store.");
