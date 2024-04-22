@@ -200,3 +200,17 @@ function lose(){
   update(locations[5]);
 
 }
+function restart(){
+  let xp=0;
+  let health=100;
+  let gold=50;
+  let currentWeapon=0;
+  let inventory=["stick"];
+
+  goldText.innerText=gold;
+  healthText.innerText=health;
+  xpText.innerText=xp;
+
+  goTown();
+
+}
