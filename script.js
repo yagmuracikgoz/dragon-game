@@ -247,6 +247,10 @@ function easterEgg(){
   update(locations[7])
 }
 function pick(guess){
+    const numbers=[]
+    while(numbers.length<10){
+
+  }
 
 }
 function pickTwo(){
